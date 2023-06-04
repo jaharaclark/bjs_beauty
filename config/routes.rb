@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
   get 'welcome/index'
   get '/cosmotology', to: 'cosmotology#index'
-  get '/esthethics', to: 'esthetics#index'
-  get '/manicurist', to: 'manicurist#index'
+  get '/esthetics', to: 'esthetics#index'
+  get '/manicuring', to: 'manicuring#index'
   get '/barbering', to: 'barbering#index'
   get '/clients', to: 'clients#index'
   get '/contact', to: 'contact#index'
